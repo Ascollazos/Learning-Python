@@ -49,6 +49,11 @@ else:
 vacaciones = False
 diaDeDescanso = False
 
+if vacaciones or diaDeDescanso :
+    print('Tiene deberes por hacer')
+else:
+    print('Puede asistir al juego')
+
 if not (vacaciones or diaDeDescanso) : # Utilizamos el operador not para invertir los valore de las variables ya sean true o false
     print('Tiene deberes por hacer')
 else:
@@ -65,5 +70,23 @@ print("treintas")
 
 if veintes or treintas:
     print('Dentro del rango (20\'s) o (30\'s)')
+    if veintes :
+        print ('Dentro del reango de los 20\'s')
+    elif treintas :
+        print('Dentro de los 30\'s')
+    else:
+        print('Fuera de rango')
 else:
     print("No esta dentro de los 20's ni de los 30's") 
+
+
+
+# Mejoras respcto a la sintaxis del  manejo ed opearadores logicos
+
+if (edad >= 20 and edad < 30 ) or (edad >= 30 and edad < 40):
+    print("Dentro de los rangos de los (20's) o (30's)") 
+
+# Correccion
+
+if ( 20 <= edad < 30 ) or ( 30 <= edad < 40):
+    print("Ahora esta mejor ")
