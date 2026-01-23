@@ -1,17 +1,33 @@
-# Ejercicio: crea un algoritmo que detecte cual es el numero mayor entre dos numeros
+# Ejercicio: crea un algoritmo que detecte cuál es el número mayor entre dos números
 
 """
 Instrucciones de tareas:
-Solicitar al usuario dos vaolores, y determinar cual numero es el mayor
+Solicitar al usuario dos valores, y determinar cuál número es el mayor
 Solicitar al usuario dos valores
 numero1 (int)
 numero2 (int)
-Se debe imprimir el mayor de los dos numeros ( la salida debe ser identica a a que sigue):
+Se debe imprimir el mayor de los dos números ( la salida debe ser idéntica a que sigue):
 Proporciona el numero1 
 Proporciona el numero2
-El numeroa mayor es :<Numero_mayor>
+El número mayor es :<Numero_mayor>
 """
-# Solucion 
+# Solución 
+
+# Exercise: Create an algorithm that detects which is the larger of two numbers.
+
+"""
+Task instructions:
+Ask the user for two values ​​and determine which number is larger.
+Ask the user for two values:
+number1 (int)
+number2 (int)
+Print the larger of the two numbers (the output should be identical to the following):
+Enter number1
+Enter number2
+The larger number is: <Largest_number>
+"""
+
+# Solution
 
 numero1 = int(input('Proporciona el numero 1: '))
 numero2 = int(input('Proporciona el numero 2: '))
