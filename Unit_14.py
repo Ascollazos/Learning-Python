@@ -14,16 +14,3 @@ else:                           # Agregamos un condicional else para los valores
                                 # We add an else conditional for out-of-range values
     numeroTexto = "Valor fuera de rango"
 print(f'El numero proporcionado: {numero} - {numeroTexto}') 
-
-
-def evaluar_dia(dia):
-    match dia:
-        case "lunes":
-            print("Es lunes, ¡a trabajar!")
-        case "viernes":
-            print("¡Casi es fin de semana!")
-        case _: # El caso por defecto (similar a 'else' o 'default')
-            print("Es otro día de la semana.")
-
-evaluar_dia("lunes")
-evaluar_dia("domingo")
